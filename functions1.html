@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Functions</title>
+</head>
+<body>
+    
+<script>
+
+function add7(number){
+    return number + 7;
+}
+
+console.log(add7(1))
+
+
+function multiply(number1, number2){
+    return number1 * number2;
+}
+
+console.log(multiply(2, 2))
+
+
+function capitalize(string){
+    return string.charAt(0).toUpperCase() + string.toLowerCase().slice(1);
+}
+
+console.log(capitalize("lowercasestring"))
+
+console.log(capitalize("UPPERCASESTRING"))
+
+console.log(capitalize("CamelCaseString"))
+
+
+function lastLetter(string){
+    return string.slice(-1);
+}
+
+console.log(lastLetter("ABCD"))
+
+
+
+
+</script>
+
+
+</body>
+</html>
